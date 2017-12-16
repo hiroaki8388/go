@@ -32,8 +32,8 @@ func zipHandler(w http.ResponseWriter, r *http.Request) {
 
 }
 
-func main() {
-
-	http.HandleFunc("/", zipHandler)
-	http.ListenAndServe(":8080", nil)
-}
+// func main() {
+//
+// 	http.HandleFunc("/", zipHandler)
+// 	http.ListenAndServe(":8080", nil)
+// }
