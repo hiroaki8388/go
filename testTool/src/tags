@@ -1,0 +1,13 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/6589ce54/
+Execute	Model.go	/^func (com Command)Execute(){$/;"	f	unknown:TestTool.Command
+TestTool	Model.go	/^package TestTool$/;"	p
+failOnError	DataLoad.go	/^func failOnError(err error) {$/;"	f	package:main
+main	DataLoad.go	/^func main() {$/;"	f	package:main
+main	DataLoad.go	/^package main$/;"	p
+readCSV	DataLoad.go	/^func readCSV(readFile string) {$/;"	f	package:main

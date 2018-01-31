@@ -8,7 +8,7 @@ func outPutNum() chan int {
 		for i := 0; i < 10; i++ {
 			// 仮想的な重い処理
 			time.Sleep(time.Second)
-			result <- i
+			reslt <- i
 		}
 		close(result)
 	}()
